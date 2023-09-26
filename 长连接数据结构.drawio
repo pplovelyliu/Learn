@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T12:55:16.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.0" etag="ppU18Su-aAlDLFalsmtb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T13:16:40.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EXl4tlXnUHqzMmReuQb6" version="21.8.0" type="github">
   <diagram name="第 1 页" id="k-R1aL5fzKZIVAKiTC7A">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-1" value="NetMonitorItem" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-2" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;Arial Unicode MS&#39;;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;长连接监控顶层数据结构&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-3" value="日期" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-4" value="设备联网时长" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-5" value="长连接在线时长" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MHevzhJdQo1GKjj7JKp8-8" target="MHevzhJdQo1GKjj7JKp8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-8" value="List&amp;lt;NetRecord&amp;gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-9" value="NetRecord" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-11" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;Arial Unicode MS&amp;quot;; font-size: 12pt;&quot;&gt;&lt;font color=&quot;#629755&quot;&gt;&lt;i&gt;一次网络连接所有的数据&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="100" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-12" value="开始联网时间" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="605" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-13" value="断网时间" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="605" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-14" value="断网原因" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="605" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MHevzhJdQo1GKjj7JKp8-17" target="MHevzhJdQo1GKjj7JKp8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-17" value="List&amp;lt;LongLinkRecord&amp;gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="605" y="340" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-18" value="LongLinkRecord" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="850" y="160" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-19" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;Arial Unicode MS&amp;quot;; font-size: 12pt;&quot;&gt;&lt;font color=&quot;#629755&quot;&gt;&lt;i&gt;一个长连接周期内所有节点的统计&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MHevzhJdQo1GKjj7JKp8-20" target="MHevzhJdQo1GKjj7JKp8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-20" value="List&amp;lt;LongLinkProcessRecord&amp;gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-22" value="LongLinkProcessRecord" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="160" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-23" value="操作类型：重试、建连、在线" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-24" value="起始时间" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="250" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-25" value="结束时间" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="290" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHevzhJdQo1GKjj7JKp8-27" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;Arial Unicode MS&amp;quot;; font-size: 12pt;&quot;&gt;&lt;font color=&quot;#629755&quot;&gt;&lt;i&gt;一个长连接节点数据&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="100" width="210" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
