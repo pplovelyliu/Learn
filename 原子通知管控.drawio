@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-09-26T02:20:55.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="k-xNGpJz3YBzb_7Hnyzh" version="21.8.0" type="github">
+  <diagram name="第 1 页" id="Re4xQ6s45_gDZyBToW8E">
+    <mxGraphModel dx="1426" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-1" value="OS" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="195" y="490" width="415" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-2" value="推送引擎" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-3" value="管控" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-4" value="管控包括：白名单，展示规则等。怎么确保2者一致？同步修改生效？因为后面开放运营后这个规则极有可能频繁变更，按照系统升级策略估计周期会以半年为单位进行，是否能够及时覆盖这个得考虑好。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-5" value="APP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-6" value="管控" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.618;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-xQBDwTCDyONvLAYzRx-5" target="3-xQBDwTCDyONvLAYzRx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <mxPoint x="520" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.571;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3-xQBDwTCDyONvLAYzRx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="270" as="sourcePoint" />
+            <mxPoint x="551" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-9" value="远程通知" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="260" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3-xQBDwTCDyONvLAYzRx-11" value="本地通知" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="90" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
